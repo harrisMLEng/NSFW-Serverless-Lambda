@@ -1,3 +1,7 @@
 requests
 awsgi 
 flask
+numpy
+Pillow
+numpy 
+onnxruntime
