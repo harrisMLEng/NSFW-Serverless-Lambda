@@ -1,0 +1,33 @@
+{
+  "python.analysis.extraPaths": [
+    "./layer/shared"
+  ],
+  "python.testing.pytestArgs": [
+    "tests",
+    "-n 4"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "autopep8",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.indexing": true,
+  "python.linting.lintOnSave": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.unusedImports": true,
+    "source.organizeImports": true
+  },
+  "[python]": {
+    "editor.detectIndentation": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  "python.defaultInterpreterPath": "./env/bin/python",
+  "python.testing.cwd": ""
+}
