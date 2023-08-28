@@ -1,5 +1,5 @@
 requests
-awsgi 
+aws-wsgi 
 flask
 numpy
 Pillow
